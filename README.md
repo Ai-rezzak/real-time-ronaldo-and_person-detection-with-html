@@ -20,13 +20,16 @@ Bu proje, webcam'den alınan gerçek zamanlı görüntüyü kullanarak **MediaPi
 ## Kullanılan Teknolojiler
 
 - Python
-- PyTorch
+- PyTorch (model eğitimi ve değerlendirmesi için)
+- ResNet (sınıflandırma modeli olarak)
 - MediaPipe (yüz tespiti için)
 - OpenCV (video yakalama ve gösterim için)
 - Flask (web arayüzü için)
 - HTML/CSS (frontend için)
 - JavaScript (dinamik etkileşim için)
 - PIL (görüntü işleme için)
+- Önceden Eğitilmiş Model (sınıflandırma için)
+
 
 ## Kurulum
 
