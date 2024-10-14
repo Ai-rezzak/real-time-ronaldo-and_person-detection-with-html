@@ -99,14 +99,14 @@ Web arayüzü, her bir tespit için aşağıdaki bilgileri gösteren bir tablo i
 
 Her bir sınıf için (Ronaldo ve diğer kişi) belirli resimler kullanılarak web arayüzünde daha iyi bir görsel temsil sağlanır. Bu resimler:
 
-- **Ronaldo:** Ronaldo'nun bir resmi (`ronaldo_image.png`).
-- **Kişi:** Genel bir kişi resmi (`person_image.png`).
+- **Ronaldo:** Ronaldo'nun bir resmi (`ron.png`).
+- **Kişi:** Genel bir kişi resmi (`person.png`).
 
 Bu resimler, sınıflandırma sonucuna göre ekranda değişir. Eğer bir yüz **Cristiano Ronaldo** olarak sınıflandırılırsa, Ronaldo'nun resmi gösterilir. Eğer yüz bir **kişi** olarak sınıflandırılırsa, kişiyi temsil eden genel bir resim gösterilir.
 
 Resim dosyalarını `static/images` klasörüne yerleştirin ve bu dosyaların adlarının doğru olduğundan emin olun:
 
-- `ronaldo_image.png`
-- `person_image.png`
+- `ron.png`
+- `person.png`
 
 ---
