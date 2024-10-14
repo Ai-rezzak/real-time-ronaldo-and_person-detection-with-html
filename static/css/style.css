@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/background.png'); /* Arka plan resminin yolu */
+    background-size: cover; /* Arka planın tamamını kaplaması için */
+    background-position: center; /* Arka planın merkezde konumlanması için */
+    color: #fff; /* Yazı rengi beyaz */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center; /* Başlık merkezde */
+    margin-top: 20px; /* Üstten boşluk */
+    font-size: 36px; /* Yazı boyutu */
+    color: #fff; /* Başlık rengi beyaz */
+}
+
+form {
+    display: flex; /* Formu esnek yap */
+    justify-content: center; /* Merkeze yerleştir */
+    margin-bottom: 20px; /* Alttan boşluk */
+}
+
+input[type="text"] {
+    padding: 10px; /* İç boşluk */
+    width: 300px; /* Genişlik */
+    border-radius: 5px; /* Kenar yuvarlama */
+    border: none; /* Kenarlık yok */
+    font-size: 16px; /* Yazı boyutu */
+}
+
+input[type="submit"] {
+    padding: 10px 20px; /* İç boşluk */
+    border-radius: 5px; /* Kenar yuvarlama */
+    border: none; /* Kenarlık yok */
+    background-color: #28a745; /* Buton rengi */
+    color: white; /* Yazı rengi beyaz */
+    font-size: 16px; /* Yazı boyutu */
+    cursor: pointer; /* İmleç değişimi */
+    margin-left: 10px; /* Soldan boşluk */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Hover durumunda buton rengi */
+}
+
+table {
+    width: 80%; /* Tablo genişliği */
+    margin: 0 auto; /* Ortaya yerleştir */
+    margin-top: 20px; /* Üstten boşluk */
+    border-collapse: collapse; /* Kenarları birleştir */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+    background-color: rgba(255, 255, 255, 0.9); /* Tablo arka plan rengi */
+}
+
+th, td {
+    padding: 15px; /* İç boşluk */
+    text-align: left; /* Soldan hizalama */
+    border-bottom: 1px solid #ddd; /* Alt kenar çizgisi */
+}
+
+th {
+    background-color: #007bff; /* Başlık arka plan rengi */
+    color: white; /* Başlık yazı rengi */
+    font-size: 18px; /* Yazı boyutu */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Üzerine gelindiğinde arka plan rengi */
+}
+
+img {
+    max-width: 100px; /* Maksimum genişlik */
+    border-radius: 5px; /* Kenar yuvarlama */
+}
+
+.upload-link {
+    display: block; /* Bloğa dönüştür */
+    text-align: center; /* Merkeze yerleştir */
+    margin-top: 20px; /* Üstten boşluk */
+    text-decoration: none; /* Alt çizgi yok */
+    background-color: #007bff; /* Arka plan rengi */
+    color: white; /* Yazı rengi beyaz */
+    padding: 10px 20px; /* İç boşluk */
+    border-radius: 5px; /* Kenar yuvarlama */
+    width: 150px; /* Genişlik */
+    margin-left: auto; /* Sol boşluk */
+    margin-right: auto; /* Sağ boşluk */
+}
+
+.upload-link:hover {
+    background-color: #0056b3; /* Hover durumunda arka plan rengi */
+}
